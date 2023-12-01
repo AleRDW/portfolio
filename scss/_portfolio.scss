@@ -1,0 +1,79 @@
+.portafolio {
+    padding-top: 120px;
+    background-color: $negro;
+    h3 {
+        color: $blanco;
+    }
+    .filas {
+        padding-top: 120px;
+    }
+    @media only screen and (min-width: 768px) {
+        .portafolio {
+            height: 160vh;
+            h3 {
+                font-size: 1.5em;
+                padding-top: 50px;
+            }
+            
+            
+            p {
+                font-size: 1em;
+            }
+            .flexbox-col {
+                display: flex;
+              flex-direction: column;
+              align-items: center;
+              .m-or-p {
+                  padding-bottom: 50px;
+              }
+            }
+        }
+      }
+    
+       @media only screen and (min-width: 992px) {
+        h3 {
+          font-size: 1.8em;
+          padding-top: 50px;
+        }
+    
+        p {
+          font-size: 1.2em;
+        }
+        .sec-6 {
+          height: 100vh;
+        }
+        .flexbox-col {
+          display: flex;
+          flex-direction: row;
+          align-items: start;
+    
+          .m-or-p {
+            padding-left: 100px;
+          }
+        }
+      }
+    
+      @media only screen and (min-width: 1200px) {
+        h3 {
+          font-size: 2.1em;
+          padding-top: 50px;
+        }
+    
+        p {
+          font-size: 1.5em;
+        }
+        .sec-6 {
+          height: 100vh;
+        }
+        .flexbox-col {
+          display: flex;
+          flex-direction: row;
+          align-items: start;
+    
+          .m-or-p {
+            padding-left: 50px;
+          }
+        }
+    }
+}
+
