@@ -1,0 +1,72 @@
+* {
+	font-family: $mainFont;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4 {
+	color: $blanco;
+}
+
+h1 {
+	font-size: $name;
+	font-weight: $f-black;
+}
+
+h2 {
+	font-size: $title;
+	font-weight: $f-bold;
+}
+
+h3 {
+	font-size: $subtitle;
+	font-weight: $f-bold;
+}
+
+p {
+	font-family: $mainFont;
+	font-size: $text;
+	font-weight: $f-regular;
+	color: $blanco;
+}
+
+section::-webkit-scrollbar {
+    display: none;
+	overflow-x: hidden;
+}
+
+section .animate {
+	transition: 1s;
+}
+
+.sec-2 .animate {
+	transform: translateX(0);
+}
+
+.sec-2.show-animate .animate {
+	transform: translateX(100%);
+}
+
+.sec-3 .animate {
+	transform: translateX(0);
+}
+
+.sec-3.show-animate .animate {
+	transform: translateX(-400%);
+}
+
+.sec-4 .animate {
+	transform: scale(1);
+}
+
+.sec-4.show-animate .animate {
+	transform: scale(0);
+}
+
+.sec-5 .animate {
+	transform: scale(0);
+}
+
+.sec-5.show-animate .animate {
+	transform: scale(1);
+}

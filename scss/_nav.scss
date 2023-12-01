@@ -1,0 +1,31 @@
+.navegador {
+	background-image: $degradado-azul;
+	.img-logo {
+		background-image: url(../img/Logo-AR.svg);
+		background-repeat: no-repeat;
+		width: 150px;
+		height: 60px;
+	}
+	ul {
+		li {
+			padding: 0 0.7rem;
+			width: 150px;
+			a {
+				color: $blanco;
+				font-weight: $f-regular;
+				text-align: center;
+				&:hover {
+					padding: 0, 30px;
+					background: $blanco;
+					color: $azul;
+					border-radius: 15px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+.nav-start {
+	padding-left: 30px;
+}
